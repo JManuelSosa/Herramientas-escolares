@@ -1,0 +1,4 @@
+/vendor/
+/Practica/
+.env
+.phpunit.result.cache

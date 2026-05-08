@@ -1,0 +1,12 @@
+RewriteEngine On
+
+RewriteBase /Alumnos
+
+# Si la petición no es un archivo real
+RewriteCond %{REQUEST_FILENAME} !-f
+
+# Ni un directorio real
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Entonces redirige a index.php
+RewriteRule ^ index.php [QSA,L]
