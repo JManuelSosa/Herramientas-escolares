@@ -1,7 +1,5 @@
 RewriteEngine On
 
-RewriteBase /Alumnos
-
 # Si la petición no es un archivo real
 RewriteCond %{REQUEST_FILENAME} !-f
 

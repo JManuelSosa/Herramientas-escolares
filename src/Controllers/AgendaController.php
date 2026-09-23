@@ -14,13 +14,6 @@ class AgendaController {
 
         $Service = new AgendaService();
         $Service->CreateExcelAgend($monthsWithDays, $cycle);
-
-
-        // foreach($monthsWithDays as $month => $weeks){
-
-        // }
-
     }
 
-    
 }
